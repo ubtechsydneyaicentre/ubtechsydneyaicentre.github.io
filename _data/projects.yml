@@ -1,7 +1,7 @@
 # Projects
   
 - name: testProjectName
-  authors: a, b, c, d
+  authors: a, b, c, d: dasd
   img: https://raw.githubusercontent.com/NLPLearn/QANet/master/screenshots/figure.png
   intro: A Tensorflow implementation of Google's QANet (previously Fast Reading Comprehension (FRC)) from ICLR2018.
   code: https://github.com/NLPLearn/QANet
