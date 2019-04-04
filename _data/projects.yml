@@ -118,3 +118,15 @@
   intro: This project is the implementation of the papers Multi-modal Factorized Bilinear Pooling with Co-Attention Learning for Visual Question Answering (MFB) and Beyond Bilinear&#58; Generalized Multi-modal Factorized High-order Pooling for Visual Question Answering (MFH). Compared with existing state-of-the-art approaches such as MCB and MLB, our MFB models achieved superior performance on the large-scale VQA-1.0 and VQA-2.0 datasets. Moreover, MFH, the high-order extention of MFB, is also proveided to report better VQA performance. The MFB(MFH)+CoAtt network architecture for VQA is illustrated in Figure 1.
   pdf: https://arxiv.org/pdf/1708.01471.pdf
   code: https://github.com/yuzcccc/vqa-mfb
+
+- name: Multi-View Intact Space Learning
+  authors: Chang Xu, Dacheng Tao, Chao Xu
+  intro: A multi-view learning algorithm which integrates the encoded complementary information in multiple views to discover a latent intact representation of the data.
+  code: https://1drv.ms/f/s!AiyWUTcV8QW4fnwBgRsB6DtUkys
+  pdf: https://ieeexplore.ieee.org/document/7297854
+
+- name: Large-Margin Multi-View Information Bottleneck
+  authors: Chang Xu, Dacheng Tao, Chao Xu
+  intro: An extension of the theory of the information bottleneck (IB) to learning from examples represented by multi-view features.
+  code: https://1drv.ms/f/s!AiyWUTcV8QW4gQIOImu4LU6jKPh4
+  pdf: https://ieeexplore.ieee.org/document/6697863
