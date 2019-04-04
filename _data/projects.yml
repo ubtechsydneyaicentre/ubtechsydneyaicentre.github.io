@@ -115,6 +115,6 @@
 
 - name: Multi-modal Factorized Bilinear Pooling with Co-Attention Learning for Visual Question Answering 
   authors: Zhou Yu, Jun Yu, Jianping Fan, Dacheng Tao
-  intro: This project is the implementation of the papers Multi-modal Factorized Bilinear Pooling with Co-Attention Learning for Visual Question Answering (MFB) and Beyond Bilinear: Generalized Multi-modal Factorized High-order Pooling for Visual Question Answering (MFH). Compared with existing state-of-the-art approaches such as MCB and MLB, our MFB models achieved superior performance on the large-scale VQA-1.0 and VQA-2.0 datasets. Moreover, MFH, the high-order extention of MFB, is also proveided to report better VQA performance. The MFB(MFH)+CoAtt network architecture for VQA is illustrated in Figure 1.
+  intro: This project is the implementation of the papers Multi-modal Factorized Bilinear Pooling with Co-Attention Learning for Visual Question Answering (MFB) and Beyond Bilinear&#58; Generalized Multi-modal Factorized High-order Pooling for Visual Question Answering (MFH). Compared with existing state-of-the-art approaches such as MCB and MLB, our MFB models achieved superior performance on the large-scale VQA-1.0 and VQA-2.0 datasets. Moreover, MFH, the high-order extention of MFB, is also proveided to report better VQA performance. The MFB(MFH)+CoAtt network architecture for VQA is illustrated in Figure 1.
   pdf: https://arxiv.org/pdf/1708.01471.pdf
   code: https://github.com/yuzcccc/vqa-mfb
