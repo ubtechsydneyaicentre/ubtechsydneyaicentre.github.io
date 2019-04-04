@@ -1,0 +1,120 @@
+# Projects
+  
+- name: testProjectName
+  authors: a, b, c, d
+  img: https://raw.githubusercontent.com/NLPLearn/QANet/master/screenshots/figure.png
+  intro: A Tensorflow implementation of Google's QANet (previously Fast Reading Comprehension (FRC)) from ICLR2018.
+  code: https://github.com/NLPLearn/QANet
+  pdf: https://arxiv.org/pdf/1804.09541.pdf
+  data: https://nlp.stanford.edu/software/GloVe-1.2.zip
+  training: https://github.com/i-lovelife/test-private-repo
+  visible: false
+
+- name: Gated-GAN&#58; Adversarial Gated Networks for Multi-Collection Style Transfer
+  authors: Xinyuan Chen, Chang Xu, Xiaokang Yang, Li Song, Dacheng Tao
+  img: https://github.com/xinyuanc91/Gated-GAN/raw/master/imgs/architecture.jpg
+  intro: We propose adversarial gated networks (Gated-GAN) to transfer multiple styles in a single model. The generative networks have three modules&#58; an encoder, a gated transformer, and a decoder. Different styles can be achieved by passing input images through different branches of the gated transformer.
+  code: https://github.com/xinyuanc91/Gated-GAN
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8463508
+
+- name: Continuous Dropout
+  authors: Xu Shen, Xinmei Tian, Tongliang Liu, Fang Xu, Dacheng Tao
+  intro: According to the activation patterns of neurons in the human brain, when faced with different situations, the firing rates of neurons are random and continuous, not binary as current dropout does. Inspired by this phenomenon, we extend the traditional binary dropout to continuous dropout. On the one hand, continuous dropout is considerably closer to the activation characteristics of neurons in the human brain than traditional binary dropout. On the other hand, we demonstrate that continuous dropout has the property of avoiding the co-adaptation of feature detectors, which suggests that we can extract more independent feature detectors for model averaging in the test stage.
+  code: https://github.com/jasonustc/caffe-multigpu/tree/dropout
+  pdf: https://ieeexplore.ieee.org/document/8057594
+  data: MNIST, CIFAR10, IMAGENET
+
+- name: Multi-Task Learning for Blind Source Separation
+  authors: Bo Du, Shaodong Wang, Chang Xu, Nan Wang, Liangpei Zhang, Dacheng Tao
+  intro: In this paper, we propose a new algorithm named multi-task sparse model to solve the BSS problem. Source signals are characterized via sparse techniques. Meanwhile, we regard the decomposition of each mixture signal as a task and employ the idea of multi-task learning to discover connections between tasks for the accuracy improvement of the source signal separation. Theoretical analyses on the optimization convergence and sample complexity of the proposed algorithm are provided. Experimental results based on extensive synthetic and real-world data demonstrate the necessity of exploiting connections between mixture signals and the effectiveness of the proposed algorithm
+  code: https://github.com/532806389/Multi-Task-Learning-for-Blind-Source-Separation
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8359085
+
+- name: Multi-task model and feature joint learning
+  authors: Ya Li, Xinmei Tian, Tongliang Liu, Dacheng Tao
+  intro: A matlab implementation for work “On Better Exploring and Exploiting Task Relationships in Multi-Task Learning&#58; Joint Model and Feature Learning” from TNNLS.
+  code: https://github.com/YaLeeUSTC/MTMF
+  pdf: https://ieeexplore.ieee.org/document/7902220
+
+- name: Heterogeneous Multitask Metric Learning Across Multiple Domains
+  authors: Yong Luo, Yonggang Wen, Dacheng Tao
+  img: https://raw.githubusercontent.com/yluopku/HMTML/master/System_Diagram.png
+  intro: A Matlab implementation of the heterogeneous multi-task metric learning method from IEEE TNNLS 2018 (Heterogeneous Multitask Metric Learning Across Multiple Domains) and IJCAI 2016 (On Combining Side Information and Unlabeled Data for Heterogeneous Multi-Task Metric Learning).
+  code: https://github.com/yluopku/HMTML
+  pdf: https://www.ijcai.org/Proceedings/16/Papers/259.pdf
+
+- name: CostSentitiveFeatureSelection
+  authors: Meng Liu, Chang Xu, Yong Luo, Chao Xu, Yonggang Wen, Dacheng Tao
+  intro: A Matlab Implementation for paper Cost-Sensitive Feature Selection by Optimizing F-Measures from TIP2017.
+  code: https://github.com/lemolemac/CostSentitiveFeatureSelection
+  pdf: accepted version has been wechated to XiaoFei
+
+- name: Shakeout&#58; A New Approach to Regularized Deep Neural Network Training
+  authors: Guoliang Kang, Jun Li, Dacheng Tao
+  intro: A Caffe implementation of Shakeout from AAAI 2016 and T-PAMI 2018.
+  code: https://github.com/kgl-prml/shakeout-for-caffe
+  pdf: https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewPaper/11840
+
+- name: MahNMF&#58; Manhattan Non-negative Matrix Factorization
+  authors: Naiyang Guan, Dacheng Tao, Zhigang Luo, John Shawe-Taylor
+  intro: This paper presents Manhattan NMF (MahNMF) which minimizes the Manhattan distance between X and WTH for modeling the heavy tailed Laplacian noise. Similar to sparse and low-rank matrix decompositions, e.g. robust principal component analysis (RPCA) and GoDec, MahNMF robustly estimates the low-rank part and the sparse part of a non-negative matrix and thus performs effectively when data are contaminated by outliers. We extend MahNMF for various practical applications by developing box-constrained MahNMF, manifold regularized MahNMF, group sparse MahNMF, elastic net inducing MahNMF, and symmetric MahNMF.
+  code: https://sites.google.com/site/nmfsolvers/documents/ManhNMF.rar?attredirects=0
+  pdf: https://sites.google.com/site/nmfsolvers/documents/MahNMF%20Manhattan%20Non-negative%20Matrix%20Factorization.pdf?attredirects=0
+
+- name: Online Nonnegative Matrix Factorization With Robust Stochastic Approximation
+  authors: Naiyang Guan, Dacheng Tao, Zhigang Luo, Bo Yuan
+  intro: In this paper, we propose an efficient online RSA-NMF algorithm (OR-NMF) that learns NMF in an incremental fashion and thus solves this problem.
+  pdf: https://sites.google.com/site/nmfsolvers/documents/Online%20Nonnegative%20Matrix%20Factorization%20With%20Robust%20Stochastic%20Approximation.pdf?attredirects=0
+
+- name: NeNMF&#58; An Optimal Gradient Method for Nonnegative Matrix Factorization
+  authors: Naiyang Guan, Dacheng Tao, Zhigang Luo, Bo Yuan
+  intro: In this paper, we present a new efficient NeNMF solver to simultaneously overcome the aforementioned problems. It applies Nesterov's optimal gradient method to alternatively optimize one factor with another fixed. In particular, at each iteration round, the matrix factor is updated by using the PG method performed on a smartly chosen search point, where the step size is determined by the Lipschitz constant.
+  pdf: https://sites.google.com/site/nmfsolvers/documents/NeNMF%20An%20Optimal%20Gradient%20Method%20for%20Nonnegative%20Matrix%20Factorization.pdf?attredirects=0
+  code: https://sites.google.com/site/nmfsolvers/documents/NeNMF.rar?attredirects=0
+
+- name: Manifold Regularized Discriminative Nonnegative Matrix Factorization With Fast Gradient Descent
+  authors: Naiyang Guan, Dacheng Tao, Zhigang Luo, Bo Yuan
+  intro: In this paper, we introduce the manifold regularization and the margin maximization to NMF and obtain the manifold regularized discriminative NMF (MD-NMF) to overcome the aforementioned problems.
+  pdf: https://sites.google.com/site/nmfsolvers/documents/Manifold%20Regularized%20Discriminative%20Nonnegative%20Matrix%20Factorization%20With%20Fast%20Gradient%20Descent.pdf?attredirects=0
+
+- name: Non-Negative Patch Alignment Framework
+  authors: Naiyang Guan, Dacheng Tao, Zhigang Luo, Bo Yuan
+  intro: In this paper, we present a non-negative patch alignment framework (NPAF) to unify popular non-negative matrix factorization (NMF) related dimension reduction algorithms. It offers a new viewpoint to better understand the common property of different NMF algorithms.
+  pdf: https://sites.google.com/site/nmfsolvers/documents/Non-Negative%20Patch%20Alignment%20Framework.pdf?attredirects=0
+  code: https://sites.google.com/site/nmfsolvers/documents/NPAF%20%28M-code%29.rar?attredirects=0
+
+- name: Real-time Video Dehazing based on Spatio-temporal MRF
+  authors: Bolun Cai, Xiangmin Xu, Dacheng Tao
+  intro: We build a Markov Random Field (MRF) with an Intensity Value Prior (IVP) to handle spatial consistency and temporal coherence.
+  pdf: https://link.springer.com/content/pdf/10.1007%2F978-3-319-48896-7.pdf
+  code: https://github.com/caibolun/ST-MRF
+
+- name: A Joint Intrinsic-Extrinsic Prior Model for Retinex
+  authors: Bolun Cai, Xianming Xu, Kailing Guo, Kui Jia, Bin Hu, Dacheng Tao
+  intro: We propose a joint intrinsic-extrinsic prior model to estimate both illumination and reflectance from an observed image.
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8237693
+  code: https://github.com/caibolun/JieP#a-joint-intrinsic-extrinsic-prior-model-for-retinex
+
+- name: BIT&#58; Biologically Inspired Tracker
+  authors: Bolun Cai, Xiangmin Xu, Xiaofen Xing, Kui Jia, Jie Miao and Dacheng Tao
+  intro: This paper aims to address this challenge based on the analysis of visual cognitive mechanism of the ventral stream in the visual cortex, which simulates shallow neurons (S1 units and C1 units) to extract low-level biologically inspired features for the target appearance and imitates an advanced learning mechanism (S2 units and C2 units) to combine generative and discriminative models for target location.
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7387745
+  code: https://github.com/caibolun/BIT
+
+- name: DehazeNet&#58; An End-to-End System for Single Image Haze Removal
+  authors: Bolun Cai, Xiangmin Xu, Kui Jia, Chunmei Qing, Dacheng Tao, [Lingke Zeng]
+  intro: Single image haze removal is a challenging ill-posed problem. Existing methods use various constraints/priors to get plausible dehazing solutions. The key to achieve haze removal is to estimate a medium transmission map for an input hazy image. In this paper, we propose a trainable end-to-end system called DehazeNet, for medium transmission estimation. DehazeNet takes a hazy image as input, and outputs its medium transmission map that is subsequently used to recover a haze-free image via atmospheric scattering model. DehazeNet adopts Convolutional Neural Networks (CNN) based deep architecture, whose layers are specially designed to embody the established assumptions/priors in image dehazing. Specifically, layers of Maxout units are used for feature extraction, which can generate almost all haze-relevant features. We also propose a novel nonlinear activation function in DehazeNet, called Bilateral Rectified Linear Unit (BReLU), which is able to improve the quality of recovered haze-free image. We establish connections between components of the proposed DehazeNet and those used in existing methods. Experiments on benchmark images show that DehazeNet achieves superior performance over existing methods, yet keeps efficient and easy to use.
+  pdf: https://arxiv.org/pdf/1601.07661.pdf
+  code: https://github.com/caibolun/DehazeNet
+
+- name: Go Decomposition (GoDec)&#58; Randomized Low-rank and Sparse Matrix Decomposition in Noisy Case; 
+  authors: Tianyi Zhou, Dacheng Tao
+  intro: Low-rank and sparse structures have been profoundly studied in matrix completion and compressed sensing. In this paper, we develop ``Go Decomposition'' (GoDec) to efficiently and robustly estimate the low-rank part $L$ and the sparse part $S$ of a matrix $X=L+S+G$ with noise $G$. GoDec alternatively assigns the low-rank approximation of $X-S$ to $L$ and the sparse approximation of $X-L$ to $S$. The algorithm can be significantly accelerated by bilateral random projections (BRP). We also propose GoDec for matrix completion as an important variant. We prove that the objective value $\|X-L-S\|_F^2$ converges to a local minimum, while $L$ and $S$ linearly converge to local optimums. Theoretically, we analyze the influence of $L$, $S$ and $G$ to the asymptotic/convergence speeds in order to discover the robustness of GoDec. Empirical studies suggest the efficiency, robustness and effectiveness of GoDec comparing with representative matrix decomposition and completion tools, e.g., Robust PCA and OptSpace.
+  pdf: http://www.icml-2011.org/papers/41_icmlpaper.pdf
+  code: https://sites.google.com/site/godecomposition/code
+
+- name: Multi-modal Factorized Bilinear Pooling with Co-Attention Learning for Visual Question Answering 
+  authors: Zhou Yu, Jun Yu, Jianping Fan, Dacheng Tao
+  intro: This project is the implementation of the papers Multi-modal Factorized Bilinear Pooling with Co-Attention Learning for Visual Question Answering (MFB) and Beyond Bilinear: Generalized Multi-modal Factorized High-order Pooling for Visual Question Answering (MFH). Compared with existing state-of-the-art approaches such as MCB and MLB, our MFB models achieved superior performance on the large-scale VQA-1.0 and VQA-2.0 datasets. Moreover, MFH, the high-order extention of MFB, is also proveided to report better VQA performance. The MFB(MFH)+CoAtt network architecture for VQA is illustrated in Figure 1.
+  pdf: https://arxiv.org/pdf/1708.01471.pdf
+  code: https://github.com/yuzcccc/vqa-mfb

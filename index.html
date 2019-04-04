@@ -1,0 +1,39 @@
+---
+layout: page
+---
+<hr>
+
+<h1> Papers
+<hr>
+{% for project in site.data.projects %} {% if project.visible != false %}
+
+    <!--<img src="{{ project.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left;width:750px !important">-->
+
+	<h1>{{ project.name }}</h1>
+	
+    {{project.authors}}
+
+    <br>
+    
+	
+    {% if project.code %} 
+	<a href="{{ project.code }}" title="Code">[code]</a> 
+	{% endif %}
+	
+	{% if project.pdf %} 
+	<a href="{{ project.pdf }}" title="Pdf">[pdf]</a> 
+	{% endif %}
+
+	{% if project.data %} 
+	<a href="{{ project.data }}" title="Data">[data]</a> 
+	{% endif %}
+	</br>
+
+	{% if project.intro %} 
+	{{ project.intro }}
+	{% endif %}
+	
+	<hr>
+
+{% endif %}{% endfor %}
+

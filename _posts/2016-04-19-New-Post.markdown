@@ -1,0 +1,11 @@
+---
+layout:     post
+title:      New Post
+author:     i-lovelife
+tags: 		nlp cv
+subtitle:  	test
+category:  project1
+---
+<!-- Start Writing Below in Markdown -->
+
+
