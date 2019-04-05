@@ -130,3 +130,9 @@
   intro: An extension of the theory of the information bottleneck (IB) to learning from examples represented by multi-view features.
   code: https://1drv.ms/f/s!AiyWUTcV8QW4gQIOImu4LU6jKPh4
   pdf: https://ieeexplore.ieee.org/document/6697863
+
+- name: One-Pass Multi-task Convolutional Neural Networks for Efficient Brain Tumor Segmentation 
+  authors: Chenhong Zhou, Changxing Ding, Zhentai Lu, Xinchao Wang and Dacheng Tao
+  intro: This work overcomes the shortcomings of popular model cascade strategy that can lead to undesired system complexity and ignore the relevance among the models due to its multiple separate cascaded models. We propose to adopt multi-task learning to integrate multiple segmentation tasks into a deep model which is called One-pass Multi-task Network (OM-Net).
+  pdf: https://link.springer.com/content/pdf/10.1007%2F978-3-030-00931-1_73.pdf
+  code: https://github.com/chenhong-zhou/OM-Net
