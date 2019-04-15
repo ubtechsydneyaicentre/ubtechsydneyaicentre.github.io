@@ -1,3 +1,5 @@
 **.swp
 _site
 **.nohup
+**.out
+.sass-cache
