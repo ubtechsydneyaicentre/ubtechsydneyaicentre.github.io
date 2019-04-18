@@ -24,7 +24,11 @@ layout: page
 	<a href="{{ project.pdf }}" title="Pdf">[pdf]</a> 
 	{% endif %}
 
-	{% if project.data %} 
+    {% if project.datasets %}
+        {% for data in project.datasets %}
+            <a href="{{ data.url }}" title="{{ data.name }}">[{{ data.name }}]</a>
+        {% endfor %}
+	{% elsif project.data %} 
 	<a href="{{ project.data }}" title="Data">[data]</a> 
 	{% endif %}
 	</br>
