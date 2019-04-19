@@ -180,3 +180,16 @@
   intro: What can we tell from a single motion-blurred image? We show in this paper that a 3D scene can berevealed. Unlike prior methods that focus on producing a deblurred image, we propose to estimate and take advantage of the hidden spatial information of a blurred image to restore the 3D scene collapsed during the exposure process. We accomplish this via training a deep network of three modules—one deblurring module to obtain deblurred image, one motion estimation module to extract the relative camera trajectory embedded in blurred image, and one depth estimation module to estimate the absolutely scale depth map of the deblurred image. Then, these three modules form a cycle to in turn reproduce the input blurred image and supervise one another. To this end, the proposed method enabling plausible 3D scene reconstruction from a single blurred image. Moreover, the performance of the three modules are enhanced by each other. We test the proposed model on several large-scale datasets we constructed based on benchmarks, as well as real-world blurred images, and show that it yields very encouraging quantitative and qualitative results. In the future work, we will endeavor to estimate dynamic scenes from single blurred images, and incorporate more tasks like scene parsing into the framework.
   code: https://github.com/JiayanQ/WfB 
   data: https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html
+
+- name: FishEyeRecNet&#58; A Multi-Context Collaborative Deep Network for Fisheye Image Rectication
+  authors: Xiaoqing Yin, Xinchao Wang, Jun Yu, Maojun Zhang, Pascal Fua, Dacheng Tao
+  intro: Images captured by fisheye lenses violate the pinhole camera assumption and suffer from distortions. Rectification of fisheye images is therefore a crucial preprocessing step for many computer vision applications. In this paper, we propose an end-to-end multi-context collaborative deep network for removing distortions from single fisheye images. In contrast to conventional approaches, which focus on extracting hand-crafted features from input images, our method learns high-level semantics and low-level appearance features simultaneously to estimate the distortion parameters. To facilitate training, we construct a synthesized dataset that covers various scenes and distortion parameter settings. Experiments on both synthesized and real-world datasets show that the proposed model significantly outperforms current state of the art methods.
+  code: https://github.com/yxqlwl/fisheye_rec_net_1.0
+  pdf: https://link.springer.com/chapter/10.1007/978-3-030-01249-6_29
+
+- name: MirrorGAN
+  authors: Tingting Qiao, Jing Zhang, Duanqing Xu, Dacheng Tao
+  intro: A Pytorch implementation of MirrorGAN Text2image from CVPR2019.
+  code: https://github.com/qiaott/MirrorGAN
+  pdf: https://arxiv.org/abs/1903.05854
+  data: MirrorGAN_data(https://drive.google.com/open?id=1jOXlYq77YqPtPPIrnP-Pt-WNia1G9f6H)
