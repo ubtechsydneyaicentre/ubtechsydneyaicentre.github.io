@@ -169,12 +169,6 @@
   code: https://github.com/WANG-Chaoyue/PAN
   pdf: https://arxiv.org/pdf/1706.09138.pdf
 
-- name: Evolutionary Generative Adversarial Networks
-  authors: Chaoyue Wang, Chang Xu, Xin Yao, Dacheng Tao
-  intro: A Theano implementations for Evolutionary Generative Adversarial Networks (E-GAN).
-  code: https://github.com/WANG-Chaoyue/EvolutionaryGAN
-  pdf: https://arxiv.org/pdf/1803.00657.pdf
-
 - name: World from Blur
   authors: Jiayan Qiu, Xinchao Wang, Stephen J. Maybank, Dacheng Tao
   intro: What can we tell from a single motion-blurred image? We show in this paper that a 3D scene can berevealed. Unlike prior methods that focus on producing a deblurred image, we propose to estimate and take advantage of the hidden spatial information of a blurred image to restore the 3D scene collapsed during the exposure process. We accomplish this via training a deep network of three modules—one deblurring module to obtain deblurred image, one motion estimation module to extract the relative camera trajectory embedded in blurred image, and one depth estimation module to estimate the absolutely scale depth map of the deblurred image. Then, these three modules form a cycle to in turn reproduce the input blurred image and supervise one another. To this end, the proposed method enabling plausible 3D scene reconstruction from a single blurred image. Moreover, the performance of the three modules are enhanced by each other. We test the proposed model on several large-scale datasets we constructed based on benchmarks, as well as real-world blurred images, and show that it yields very encouraging quantitative and qualitative results. In the future work, we will endeavor to estimate dynamic scenes from single blurred images, and incorporate more tasks like scene parsing into the framework.
@@ -204,3 +198,10 @@
   authors: Naiyang Guan, Tongliang Liu, Yangmuzi Zhang, Dacheng Tao, Larry S. Davis
   intro: Non-negative matrix factorization (NMF) minimizes the euclidean distance between the data matrix and its low rank approximation, and it fails when applied to corrupted data because the loss function is sensitive to outliers. In this paper, we propose a Truncated CauchyNMF loss that handle outliers by truncating large errors, and develop a Truncated CauchyNMF to robustly learn the subspace on noisy datasets contaminated by outliers. We theoretically analyze the robustness of Truncated CauchyNMF comparing with the competing models and theoretically prove that Truncated CauchyNMF has a generalization bound which converges at a rate of order O(lnn/n‾‾‾‾‾√) , where n is the sample size. We evaluate Truncated CauchyNMF by image clustering on both simulated and real datasets. The experimental results on the datasets containing gross corruptions validate the effectiveness and robustness of Truncated CauchyNMF for learning robust subspaces. 
   code: https://github.com/NaiyangGuan/Truncated-Cauchy-Non-Negative-Matrix-Factorization
+
+- name: Evolutionary Generative Adversarial Networks
+  authors: Chaoyue Wang, Chang Xu, Xin Yao, Dacheng Tao
+  img: https://github.com/WANG-Chaoyue/EvolutionaryGAN-pytorch/blob/master/imgs/EGAN_framework.jpg
+  intro: Generative adversarial networks (GAN) have been effective for learning generative models for real-world data. However, accompanied with the generative tasks becoming more and more challenging, existing GANs (GAN and its variants) tend to suffer from different training problems such as instability and mode collapse. In this paper, we propose a novel GAN framework called evolutionary generative adversarial networks (E-GAN) for stable GAN training and improved generative performance. Unlike existing GANs, which employ a pre-defined adversarial objective function alternately training a generator and a discriminator, we evolve a population of generators to play the adversarial game with the discriminator. Different adversarial training objectives are employed as mutation operations and each individual (\ie, generator candidature) are updated based on these mutations. Then, we devise an evaluation mechanism to measure the quality and diversity of generated samples, such that only well-performing generator(s) are preserved and used for further training. In this way, E-GAN overcomes the limitations of an individual adversarial training objective and always preserves the well-performing offspring, contributing to progress in and the success of GANs. Experiments on several datasets demonstrate that E-GAN achieves convincing generative performance and reduces the training problems inherent in existing GANs.
+  code: https://github.com/WANG-Chaoyue/EvolutionaryGAN-pytorch
+  pdf: https://arxiv.org/pdf/1803.00657.pdf
